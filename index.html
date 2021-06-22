@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test-4 files</title>
+    <!-- <link rel='stylesheet' type="text/css" href="style.css" /> -->
+    <!-- <meta charset="UTF-8" /> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- <title>Vue Basics</title> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body id="app">
+    <input ref="text1" type="text" /><br><br>
+    <input ref="text2" type="text" /><br><br>
+    <button @click="fullName">Full Name</button>
+    <p>{{ fullName1 }}</p>
+    <!-- <p @click="displayInput"><input value="" :class="{active: displayValue}" ref="enteredText"
+            @keyup.enter="enterFunction" type="text" />>{{ !enteredText1 && displayValue === true
+        ? 'This is p tag' : enteredText1 }}
+    </p> -->
+    <!-- <select @change="Onchange($event)" v-model="selected">
+        <option>Select...</option>
+        <option value="open">Open</option>
+        <option value="closed">Closed</option>
+        <option value="pending">Pending</option>
+    </select>
+
+    <div>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+                <th>status</th>
+            </tr>
+
+            <tr v-for="table in tableData">
+                <td v-if="checkIf(table.status)">{{ table.id }}</td>
+                <td v-if="checkIf(table.status)">{{ table.name }}</td>
+                <td v-if="checkIf(table.status)">{{ table.email }}</td>
+                <td v-if="checkIf(table.status)">{{ table.status }}</td>
+            </tr>
+
+        </table>
+    </div> -->
+
+    <!-- <form id="app">
+        <textarea v-model="enteredText"></textarea>
+        <p>{{ enteredText.length }}</p>
+    </form> -->
+</body>
+
+</html>
